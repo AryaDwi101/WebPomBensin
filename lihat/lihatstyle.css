@@ -1,0 +1,15 @@
+button {
+  width: 114px;
+  height: 39px;
+  top: 940px;
+  left: 467px;
+  gap: 0px;
+  border-radius: 40px;
+  border: 1px;
+  opacity: 0px;
+  background: #848484;
+  border: 1px solid #988686;
+  position: absolute;
+  top: 1000px; /* or any other value */
+  left: 200px; /* or any other value */
+}

@@ -1,0 +1,119 @@
+.navbar {
+  width: 1467px;
+  height: 76px;
+  flex-shrink: 0;
+  background: #b51e26;
+}
+
+.navbar .logo {
+  width: 200px;
+  height: 80px;
+  top: 21px;
+  left: 18px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.navbar .logo2 {
+  width: 182px;
+  height: 60px;
+  top: 0px;
+  left: 100px;
+
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+  top: 0%; /* or any other value */
+  left: 70%; /* or any other value */
+}
+
+.navbar .logo3 {
+  width: 182px;
+  height: 60px;
+  top: 0px;
+  left: 100px;
+
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+  top: 2%; /* or any other value */
+  left: 50%; /* or any other value */
+}
+
+.navbar .middle {
+  position: absolute;
+  top: 1%; /* or any other value */
+  left: 65%; /* or any other value */
+}
+
+.maincontainer {
+  width: 400px;
+  height: 1024px;
+  flex-shrink: 0;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(15px);
+}
+
+body {
+  width: 1440px;
+  height: 1024px;
+  background: url(Attribute/Cara-dan-Syarat-Mendirikan-Bisnis-Franchise-SPBU-Mini-Pertamina-1024x576.jpg) lightgray 50% / cover no-repeat;
+}
+
+.maincontainer .menucontainer1 {
+  position: absolute;
+  top: 6%; /* or any other value */
+  left: 20%; /* or any other value */
+  width: 200px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: url(Attribute/Rectangle\ 14.png) lightgray 50% / cover no-repeat;
+}
+
+.menucontainer1 a {
+  width: 245px;
+  height: 10px;
+  display: flex;
+  position: absolute;
+  top: 39%; /* or any other value */
+  left: -9%; /* or any other value */
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  opacity: 1; /* changed from 0 to 1 to make the text visible */
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 40px;
+  text-align: center; /* changed from left to center */
+}
+
+.maincontainer .menucontainer2 {
+  position: absolute;
+  top: 20%; /* or any other value */
+  left: 20%; /* or any other value */
+  width: 200px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: url(Attribute/Rectangle\ 14.png) lightgray 50% / cover no-repeat;
+}
+
+.menucontainer2 a {
+  width: 245px;
+  height: 10px;
+  display: flex;
+  position: absolute;
+  top: 39%; /* or any other value */
+  left: -9%; /* or any other value */
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  opacity: 1; /* changed from 0 to 1 to make the text visible */
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 40px;
+  text-align: center; /* changed from left to center */
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Transaksi Bensin</title>
+    <script src="proses.js"></script>
+    <link rel="stylesheet" href="transaksistyle.css" />
+  </head>
+
+  <body>
+    <form action="record_transaction.php" method="post" class="container">
+      <div class="head">
+        <h1>Transaksi Pom Bensin</h1>
+      </div>
+      <div>
+        <br />
+        <label for="jenisBensin" class="teks1">Jenis Bensin: </label>
+        <br />
+        <br />
+        <select id="harga" name="jenisBensin" class="form1" onchange="tampilkanHargaLiter()">
+          <option value="Pertamax"><p>Pertamax</p></option>
+          <option value="Pertalite"><p>Pertalite</p></option>
+        </select>
+      </div>
+
+      <div>
+        <br /><br />
+        <label for="jumlahUang" class="teks1">Jumlah Yang Mau Di Beli: </label>
+        <br />
+        <br />
+        <input type="number" id="jumlahUang" name="jumlahUang" value="0" class="form2" onchange="tampilkanHargaLiter()" placeholder="Jumlah uang yang dibayar" />
+      </div>
+
+      <div>
+        <br /><br />
+        <label for="uangDiterima" class="teks1">Uang Yang Diterima</label>
+        <br /><br />
+        <input type="number" id="uangDiterima" name="uangDiterima" placeholder="Uang diterima" class="form2" onchange="hitungKembalian()" />
+      </div>
+      <br /><br /><br />
+      <div class="formdetail">
+        <div class="headbar">
+          <label for="detail" class="teksbar">Detail Transaksi</label>
+        </div>
+        <br />
+        <div class="formtransaksi">
+          <div id="hargaPerLiter"><p class="datateks">Harga Per Liter: Rp.</p></div>
+        </div>
+        <br /><br />
+        <div class="formtransaksi2">
+          <div id="hargaTotal"><p class="datateks">Harga Total: Rp.</p></div>
+        </div>
+        <div class="formtransaksi3">
+          <div id="kembalian"><p class="datateks">Kembalian: Rp.</p></div>
+        </div>
+
+        <input type="hidden" id="hargaPerLiterHidden" name="hargaPerLiter" />
+        <input type="hidden" id="hargaTotalHidden" name="hargaTotal" />
+        <input type="hidden" id="kembalianHidden" name="kembalian" />
+        <input type="submit" value="Catat" class="submit" />
+        <button>
+          <a href="../index.html">Home</a>
+        </button>
+      </div>
+    </form>
+  </body>
+</html>
